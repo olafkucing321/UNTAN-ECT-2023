@@ -1,3 +1,5 @@
+// Sebelum jalankan program ini, jalankan program set shunt & set address untuk PZEM-017 baru
+
 #include <ModbusMasterPzem017.h>
 static uint8_t pzemSlaveAddr = 0x01;                                                        //  Alamat PZEM
 
