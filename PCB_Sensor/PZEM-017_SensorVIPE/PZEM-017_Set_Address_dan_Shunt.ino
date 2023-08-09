@@ -75,3 +75,5 @@ void setShunt(uint8_t slaveAddr) {
     Serial.print(" ");
   }
 }
+
+// Muhammad Revaldi Frizky (9 Agustus 2023)
