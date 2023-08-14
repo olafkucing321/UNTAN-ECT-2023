@@ -1,7 +1,7 @@
 #include <ModbusMasterPzem017.h>
 static uint8_t pzemOldAddr = 0xF8;  //Broadcast Address - Kalau ndak bisa pakai 0x00
 static uint8_t pzemNewAddr = 0x01;  //New Address
-static uint16_t NewshuntAddr = 0x0001;                                                      //  "0x0001" untuk tahanan shunt 50A
+static uint16_t NewshuntAddr = 0x0002;                                                      //  "0x0001" untuk tahanan shunt 50A
 ModbusMaster node;
 
 void setup()
